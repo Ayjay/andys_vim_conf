@@ -11,6 +11,8 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 
+call pathogen#runtime_append_all_bundles() 
+
 syntax on
 
 filetype plugin on
