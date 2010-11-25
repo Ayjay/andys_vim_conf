@@ -13,6 +13,8 @@ set softtabstop=4
 
 syntax on
 
+call pathogen#runtime_append_all_bundles()
+
 filetype plugin on
 filetype plugin indent on
 
